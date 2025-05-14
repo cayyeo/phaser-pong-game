@@ -8,11 +8,11 @@ export class Game extends Scene {
         super('Game');
         this.ball = null;
         this.leftPaddle = null;
-        this.rightPddle = null;
+        this.rightPaddle = null;
     }
 
     preload() {
-        this.load.image('background','assets/ball.png');
+        this.load.image('background','assets/background.png');
         this.load.image('ball','assets/ball.png');
         this.load.image('paddle','assets/paddle.png');
     }
